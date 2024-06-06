@@ -61,7 +61,7 @@ const TapArea = () => {
   };
 
   return (
-    <div className="mt-8 flex justify-center">
+    <div className="mt-16 flex justify-center">
       {clicks.map((click) => (
         <span
           key={click.id}
@@ -79,7 +79,7 @@ const TapArea = () => {
         onClick={handleClick}
         src={tapImage}
         alt="Coin Image"
-        className="w-56 h-56"
+        className="w-72 h-72"
       />
     </div>
   );

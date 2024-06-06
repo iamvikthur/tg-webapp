@@ -9,7 +9,7 @@ const ProgressBar = () => {
 
   return (
     <div className="mt-16 px-5">
-      <div className="relative bg-blue-900 p-1 bg-opacity-20 rounded-lg">
+      <div className="relative bg-blue-900 p-2 bg-opacity-20 rounded-lg">
         <div className="overflow-hidden h-3 text-xs flex bg-gray-200 rounded-lg">
           <div
             style={{ width: tapPercentage + "%" }}
